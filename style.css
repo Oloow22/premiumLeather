@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+body{
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Heading section */
+
+header{
+    min-height: 90px;
+    background: #212020;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+
+.full{
+    margin-left: 10px;
+}
+
+header .container-fluid{
+    max-width: 1850px;
+}
+
+.right_header_info{
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+}
+
+.right_header_info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.right_header_info ul li{
+    /* display: none; */
+    font-size: 16px;
+    margin-left: 45px;
+    color: #eaeaea;
+    font-weight: 400;
+    float: left;
+    align-items: center;
+}
+
+.right_header_info ul li a{
+    color: #eaeaea;
+    font-weight: 300;
+}
+
+.button_user a{
+    float: left;
+    min-width: 75px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    position: relative;
+    top: -7px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: solid #eaeaea 1px;
+}
+
+.button_user a:hover, .button_user a:focus, .button_user a.active{
+    background: #e3d105;
+    color: #fff;
+    border-color:#e3d105 ;
+    color: #222;
+}
+
+#sidebarCollapse{
+    background: transparent;
+}
+
+.slider_section{
+    background: #212020;
+    min-height: 100vh;
+    padding-top: 93px;
+}
+
