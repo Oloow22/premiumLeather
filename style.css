@@ -11,8 +11,8 @@ body{
 }
 
 img{
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; 
+    height: auto; 
 }
 
 /* Heading section */
@@ -93,4 +93,129 @@ header .container-fluid{
     min-height: 100vh;
     padding-top: 93px;
 }
+
+/* SLIDER SECTION */
+
+#main_slider{
+    padding: 90px 0 30px;
+}
+
+.slider_section .container{
+    width: 100%;
+    max-width: 1920px;
+}
+
+.vert .carousel-item-next.carousel-item-left, .vert .carousel-item-prev.carousel-item-right{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next, .vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+
+.vert .carousel-item-prev, .vert .active.carousel-item-left {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+
+.slider_cont{
+    padding-left: 190px;
+    float: left;
+    margin: 100px 0 0;
+}
+
+.slider_cont h3{
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 70px;
+    letter-spacing: -2px;
+}
+
+.slider_cont p{
+    font-size: 18px;
+    color: #999;
+    line-height: normal;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+
+#main_slider .carousel-control-prev, #main_slider .carousel-control-next{
+    width: 65px;
+    height: 65px;
+    background: #e1e0e0;
+    opacity: 1;
+    font-size: 30px;
+    color: #212020;
+    border-radius: 100%;
+}
+
+#main_slider a.carousel-control-prev{
+    position: absolute;
+    left: 50px;
+    top: 42%;
+}
+
+#main_slider a.carousel-control-next{
+    position:absolute;
+    left: 50px;
+    top: 52%;
+}
+
+/* about section */
+
+.about{
+    padding-top: 90px;
+}
+
+.about .about_box{
+    background: #191918;
+    padding: 55px 40px;
+}
+
+.about .about_box h3{
+    font-size: 30px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+    padding: 0;
+}
+
+.about .about_box p{
+    color: #ffff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 30px 0px;
+    font-weight: 400;
+}
+
+.about .about_box a{
+    color: #fff;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.about .about_box a:hover{
+    color: #e7bb0b;
+}
+
+.about .about_img{
+    height: 100%;
+    background: #d8b00f;
+    margin-top: 90px;
+}
+
+.about .about_img figure{
+    margin: 0;
+    margin-right: 0px;
+    padding: 92px 0px 0px 60px;
+    margin-right: -64px;
+}
+
+
+
 
