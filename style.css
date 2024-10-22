@@ -216,6 +216,297 @@ header .container-fluid{
     margin-right: -64px;
 }
 
+/* blog section */
+
+.blog{
+    padding-top: 180px;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.title h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #191918;
+    padding: 20px 0px;
+}
+
+.title span{
+    color: #191918;
+    font-size: 17px;
+    line-height: 20px;
+    display: block;
+}
+
+.blog .blog_box{
+    border: #a1a1a1 solid 1px;
+    background: #fff;
+}
+
+.blog .blog_box .blog_img_box{
+    background: #fff;
+    box-shadow: #ddd 0px 3px 3px 0px;
+}
+
+.blog .blog_box .blog_img_box figure{
+    margin: 0;
+    position: relative;
+}
+
+.blog_img_box figure img{
+    width: 100%;
+}
+
+.blog .blog_box .blog_img_box figure span{
+    background: #000;
+    top: 0;
+    text-align: center;
+    padding: 7px 10px;
+    color: #fff;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+
+.blog .blog_box h3{
+    color: #373535;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 0px 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.blog .blog_box p{
+    color: #525050;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0px 20px;
+    padding-bottom: 28px;
+}
+
+/* Client section  */
+
+.Client{
+    padding-top:90px ;
+}
+
+.Client .title h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #191918;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+
+.Client .Client_box{
+    background: #212020;
+    border-radius: 20px;
+    text-align: center;
+    padding: 65px 50px;
+}
+
+.Client .Client_box h3{
+    color: #fff;
+    font-size: 30px;
+    line-height: 28px;
+    padding: 25px 0px;
+    padding-top: 32px;
+}
+
+.Client .Client_box p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.Client .Client_box i{
+    padding-top: 20px;
+    display: inline-block;
+}
 
 
+/* footer */
+.footer{
+    background: #d8b00f;
+    padding-top: 90px;
+    margin-top: 90px;
+}
 
+.footer h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 223px;
+    padding-bottom: 0px;
+}
+
+.white {
+    color: #fff;
+    font-weight: 500;
+}
+
+.main_form{
+    padding-top: 30px;
+    padding-left: 223px;
+}
+
+.form-control{
+    border: #fff solid 2px;
+    border-radius: inherit;
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    font-family: poppins;
+}
+
+.form-control:focus{
+    box-shadow: inherit;
+    border: #fff solid 2px !important;
+}
+
+.textarea{
+    font-family: poppins;
+    border: #fff solid 2px;
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.send{
+    font-family: poppins;
+    float: left;
+    margin:0 auto;
+    display: block;
+    background: #fff;
+    color: #000;
+    max-width: 165px;
+    padding: 13px 0px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.send:hover{
+    background: #000;
+    color: #fff;
+}
+
+.footer .img-box{
+    padding-right: 25px; 
+}
+
+.footer_logo{
+    margin-top: 40px;
+    text-align: center;
+    border-bottom: #ddd solid 1px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+ul.lik{
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul.lik li{
+    display: inline-block;
+}
+
+ul.lik li a{
+    color: #292323;
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 25px;
+    font-weight: 500;
+}
+
+ul.lik li a:hover{
+    color: #fff;
+}
+
+ul.lik li.active a{
+    color: #fff;
+}
+
+.new{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.new h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.newtt p{
+    color: #fff;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.newtetter{
+    display: inline;
+}
+
+.newtetter .tetter{
+    padding: 9px 20px;
+    border-radius: inherit;
+    border: indianred;
+}
+
+.submit{
+    background: #070100;
+    margin-left: -3px;
+    padding: 9px 50px;
+    color: #fff;
+}
+
+.submit:hover{
+    background: #ddd;
+    color: #000;
+}
+
+.footer .img-box figure{
+    margin: 0px;
+}
+
+.footer .img-box figure img{
+    width: 100%;
+}
+
+.copyright{
+    background: #fff;
+    margin-top: 90px;
+}
+
+.copyright p{
+    color: #000;
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 17px;
+}
+
+.copyright a:hover{
+    color: #d8b00f;
+}
+
+.owl-dot{
+    background: #15cfe5 !important;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 25px !important;
+    border-radius: 25px;
+    margin: 0px 5px;
+    margin-bottom: 0px;
+}
